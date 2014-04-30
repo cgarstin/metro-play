@@ -38,7 +38,13 @@ module.exports = function (grunt) {
             },
             compass: {
                 files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
-                tasks: ['compass:server']
+                tasks: ['compass:server'],
+                dist: {},
+                server: {
+                    options: {
+                        debugInfo: true
+                    }
+                }
             },
             livereload: {
                 options: {
@@ -51,6 +57,7 @@ module.exports = function (grunt) {
                     '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
                 ]
             }
+
         },
         
         responsive_images: {
@@ -206,7 +213,7 @@ module.exports = function (grunt) {
         },
         compass: {
             options: {
-                sassDir: '<%= yeoman.app %>/styles',
+                sassDir: '<%= yeoman.app %>/styles/scss',
                 cssDir: '.tmp/styles',
                 generatedImagesDir: '.tmp/images/generated',
                 imagesDir: '<%= yeoman.app %>/images',
@@ -432,7 +439,6 @@ module.exports = function (grunt) {
         'concurrent:test',
         'connect:test',
         'mocha',
-        'rev'
     ]);
 
     grunt.registerTask('build', [
