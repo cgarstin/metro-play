@@ -431,7 +431,8 @@ module.exports = function (grunt) {
         'clean:server',
         'concurrent:test',
         'connect:test',
-        'mocha'
+        'mocha',
+        'rev'
     ]);
 
     grunt.registerTask('build', [
