@@ -7995,7 +7995,7 @@ td.visible-print {
 }
 /* line 4, ../../app/styles/scss/main.scss */
 body {
-  background: black url(/images/background.jpg) center 0 no-repeat;
+  background: black url(/metro-play/app/images/background.jpg) center 0 no-repeat;
   background-scale: contain;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-bottom: 20px;
