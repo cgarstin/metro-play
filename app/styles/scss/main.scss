@@ -10,42 +10,34 @@ body {
 
 .container {
   max-width: 940px;
+  @include transition(width 0.2s);
 }
 
 footer {
   p {
-    @include text-shadow(rgba(#fff, 0.8) 1px 1px 0);
-  }
-}
-
-.hero-unit {
-    margin: 0 auto;
-    max-width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
-    h1 {
-      font-size: 60px;
-      line-height: 1;
-      letter-spacing: -1px;
+    &:hover {
+      color: #aaa;
+      @include transition(color 0.2s);
+    }
   }
 }
 
 /* Set widths on the navbar form inputs since otherwise they're 100% wide */
 .login-form {
   input {
-    & [type="text"],
-    & [type="email"]{
-      @extend .col-md-6;
-      @media (min-width: $screen-lg-min) {
-        float: none;
+    margin-bottom: 10px;
+    &[type="text"],
+    &[type="email"] {
+      @media (min-width: $screen-sm) and (max-width: $screen-md) {
+        float: left;
+        width: 50%;
       }
     }
-    & + input {
-      margin-top: 10px;
+    @media (min-width: $screen-sm) and (max-width: $screen-md) {
+      &:nth-of-type(2n) {
+        margin-left: 10px;
+        width: calc( 50% - 10px );
+      }  
     }
   }
 }
@@ -53,6 +45,7 @@ footer {
 .game-login {
   img {
     max-width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -72,5 +65,12 @@ footer {
   /* Remove padding from wrapping element since we kick in the grid classes here */
   .body-content {
     padding: 0;
+  }
+}
+
+/* ie8 and below styles */
+.lt-ie9 {
+  .login-form {
+    max-width: 600px;
   }
 }
