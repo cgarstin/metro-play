@@ -1,0 +1,452 @@
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\0000322}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\0000332}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\0000341}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\0000352}}
+[hidden],
+template {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\0000366}}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\0000376}}
+body {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\0000388}}
+a {
+  background: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\0000396}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003105}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003118}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003127}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003136}}
+b,
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003144}}
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003152}}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003162}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003174}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003183}}
+pre {
+  white-space: pre-wrap;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003191}}
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003199}}
+small {
+  font-size: 80%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003208}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003215}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003219}}
+sub {
+  bottom: -0.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003231}}
+img {
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003239}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003251}}
+figure {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003263}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003274}}
+legend {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003288}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003300}}
+button,
+input {
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003312}}
+button,
+select {
+  text-transform: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003327}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003337}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003347}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003358}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003371}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003380}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003390}}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/_normalize\.scss}line{font-family:\00003403}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000312}}
+body {
+  background: black url(/images/background.jpg) center 0 no-repeat;
+  background-scale: contain;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000319}}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000325}}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000329}}
+.clearfix:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000335}}
+.container {
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-transition: width 0.2s;
+  -moz-transition: width 0.2s;
+  -o-transition: width 0.2s;
+  transition: width 0.2s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000350}}
+.column-1-of-2 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000357}}
+.body-content {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000361}}
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.14;
+  background-color: #eeeeee;
+  border-radius: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000369}}
+.jumbotron p {
+  line-height: 1.4;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000376}}
+.game-login img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000383}}
+.login-form input {
+  margin-bottom: 10px;
+}
+@media (max-width: 992px) and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000386}}
+  .login-form input[type="text"], .login-form input[type="email"] {
+    float: left;
+    width: 50%;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000393}}
+  .login-form input:nth-of-type(2n) {
+    margin-left: 10px;
+    width: calc(50% - 10px );
+  }
+}
+
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003103}}
+  .jumbotron {
+    margin-top: 20px;
+    padding: 48px 60px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003108}}
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003114}}
+  .column-1-of-2 {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003121}}
+  .container {
+    width: 1170px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003126}}
+h2 {
+  font-size: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003133}}
+p {
+  margin: 0 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003141}}
+.form-control,
+input[type="text"],
+input[type="email"] {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #555555;
+  vertical-align: middle;
+  background-color: white;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003158}}
+.form-control:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003168}}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid #357ebd;
+  border-radius: 4px;
+  white-space: nowrap;
+  padding: 6px 12px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #428bca;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003190}}
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003198}}
+.btn:active, .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003208}}
+.btn:hover, .btn:focus, .btn:active, .btn.active {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+/* ie8 and below styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\00003217}}
+.lt-ie9 .login-form {
+  max-width: 600px;
+}
