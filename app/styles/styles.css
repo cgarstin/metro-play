@@ -247,7 +247,7 @@ table {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/x130204\/projects\/metro-play\/app\/styles\/scss\/styles\.scss}line{font-family:\0000312}}
 body {
-  background: black url(/images/background.jpg) center 0 no-repeat;
+  background: black url(/metro-play/app/images/background.jpg) center 0 no-repeat;
   background-scale: contain;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-bottom: 20px;
