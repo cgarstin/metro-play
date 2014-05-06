@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
@@ -17,28 +15,17 @@
 
 </head>
 <body>
-
-  <!-- Page content of course! -->
-  <!-- Custom styles for this template -->
-
-
-  
-
-  <div class="container game-login">
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-
-
+  <div class="container game-login clearfix">
     <div class="body-content">
 
       <!-- Example row of columns -->
-      <div class="jumbotron clearfix row">
+      <div class="jumbotron clearfix">
         <!-- Game image goes in the first column -->
-        <div class="col-md-6">
+        <div class="column-1-of-2">
           <img src="images/game.jpg" alt="" />
         </div>
         <!-- Game description and login form goes in the second column -->
-        <section class="col-md-6">
+        <section class="column-1-of-2">
           <h2>Enchanted Meadow</h2>
 
           <p>5 Reels 15 Paylines, Wild, Scatter, Free Spins Bonus, Gamble Feature.</p>
@@ -54,53 +41,40 @@
 
 
       <footer>
-        <p>&copy; Me 2013</p>
+        <p>&copy; Cole Garstin 2014</p>
       </footer>
     </div>
 
   </div> <!-- /container -->
 
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+  var _gaq=[['_setAccount','UA-50695137-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src='//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
 
-  <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+  <!-- build:js scripts/main.js -->
+  <script src="bower_components/jquery/jquery.js"></script>
+  <!--
+    // we have no scripts right now, no need to load that resource
+    <script src="scripts/main.js"></script>
+  -->
+  <!-- endbuild -->
 
+  <!-- build:js scripts/async-local-storage.js -->
+  <script src="scripts/async.localStorage.js"></script>
+  <script src="scripts/async.localStorage.examples.js"></script>
+  <!-- endbuild -->
 
+  <!-- build:js scripts/fullscreensnippet.js -->
+  <script src="scripts/fullscreensnippet.js"></script>
+  <!-- endbuild -->
 
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-            <![endif]-->
-
-            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-            <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-              g.src='//www.google-analytics.com/ga.js';
-              s.parentNode.insertBefore(g,s)}(document,'script'));
-            </script>
-
-            <!-- build:js scripts/main.js -->
-            <script src="bower_components/jquery/jquery.js"></script>
-            <script src="scripts/main.js"></script>
-            <!-- endbuild -->
-
-            <!-- build:js(.tmp) scripts/coffee.js -->
-            <script src="scripts/hello.js"></script>
-            <!-- endbuild -->
-
-            <!-- build:js scripts/async-local-storage.js -->
-            <script src="scripts/async.localStorage.js"></script>
-            <script src="scripts/async.localStorage.examples.js"></script>
-            <!-- endbuild -->
-
-            <!-- build:js scripts/fullscreensnippet.js -->
-            <script src="scripts/fullscreensnippet.js"></script>
-            <!-- endbuild -->
-
-            <!-- build:js scripts/fastclick.js -->
-            <script src="scripts/fastclick.js"></script>
-            <script src="scripts/fastclick.example.js"></script>
-            <!-- endbuild -->
-          </body>
-          </html>
+  <!-- build:js scripts/fastclick.js -->
+  <script src="scripts/fastclick.js"></script>
+  <script src="scripts/fastclick.example.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
